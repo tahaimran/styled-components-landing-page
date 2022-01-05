@@ -29,10 +29,18 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
             node-version: 16
+            
+      # Install npm packages
+      - name: Install packages
+        run: npm install
+
+      # Build react app
+      - name: Build the app
+        run: npm run build
 
       # Runs a set of commands using the runners shell
       - name: Installing SUrge
         run: npm install --global surge
       - name: deploying using surge
-        run : surge ./ styled-comp-prac-site.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run : surge ./build styled-comp-prac-site.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
