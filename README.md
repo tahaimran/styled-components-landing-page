@@ -1,7 +1,7 @@
-# Single Section Site With Style Components
+# Single Section Site With Style Components and Surge
 
-For practicing styled components, I have completed a single section website which covers all of the
-styled components practice
+For practicing styled components and Surge, I have completed a single section website which covers all of the
+styled components practice and use Surge for deployment
 
 
 
