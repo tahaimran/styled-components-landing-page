@@ -16,7 +16,7 @@ function Single() {
                 </Container>
                 <Container >
                     <H3>Build The Community <br />  Your Fans Will Love</H3>
-                    <P>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</P>
+                    <P>Huddle imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</P>
                     <Button>
                         Register
                     </Button>
